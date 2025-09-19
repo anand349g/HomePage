@@ -10902,8 +10902,8 @@ p {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     border: none;
     background-color: #F9F7F8;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
@@ -10913,7 +10913,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 3rem;
+    height: 3.5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink .navbar-brand {
