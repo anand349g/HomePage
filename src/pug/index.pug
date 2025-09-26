@@ -49,49 +49,69 @@ html(lang='en')
                 a.btn.btn-primary.btn-xl.text-uppercase(href='#contact',style="border-radius:100rem") Contact Us
 
         // Services
-        section#services.page-section
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Services
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                .row.text-center
-                    .col-md-4
-                        span.fa-stack.fa-4x
-                            i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
-                        h4.my-3 Operations Management
-                        p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    .col-md-4
-                        span.fa-stack.fa-4x
-                            i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-laptop.fa-stack-1x.fa-inverse
-                        h4.my-3 Sales & Marketing
-                        p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    .col-md-4
-                        span.fa-stack.fa-4x
-                            i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-lock.fa-stack-1x.fa-inverse
-                        h4.my-3 Investments & Development
-                        p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+        //- section#services.page-section
+        //-     .container
+        //-         .text-center
+                    //- h2.section-heading.text-uppercase Services
+                    //- h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        //-         .row.text-center
+        //-             .col-md-4
+        //-                 span.fa-stack.fa-4x
+        //-                     i.fas.fa-circle.fa-stack-2x.text-primary
+        //-                     i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
+        //-                 h4.my-3 Operations Management
+        //-                 p.text-muted
+        //-                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+        //-             .col-md-4
+        //-                 span.fa-stack.fa-4x
+        //-                     i.fas.fa-circle.fa-stack-2x.text-primary
+        //-                     i.fas.fa-laptop.fa-stack-1x.fa-inverse
+        //-                 h4.my-3 Sales & Marketing
+        //-                 p.text-muted
+        //-                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+        //-             .col-md-4
+        //-                 span.fa-stack.fa-4x
+        //-                     i.fas.fa-circle.fa-stack-2x.text-primary
+        //-                     i.fas.fa-lock.fa-stack-1x.fa-inverse
+        //-                 h4.my-3 Investments & Development
+        //-                 p.text-muted
+        //-                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
         // Portfolio Grid
         section#portfolio.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase Services
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    //- h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
                 .row
                     .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
-                            img.img-fluid(src='assets/img/portfolio/1.jpg' alt='...')
+                            img.img-fluid(src='assets/img/portfolio/operation.jpg' alt='...')
                             .portfolio-caption
                                 .portfolio-caption-heading Operations Management
                                 .portfolio-caption-subheading.text-muted
                                     //- .description-short Oak SPring Hospitality Services stands
                                     .description-full(style='display:none') Oak Spring Hospitality Services stands as a distinguished leader in the hospitality industry, achieving superior results through an engaged, proactive management style and a steadfast commitment to skill enhancement. Our mission is to amplify revenue streams, maximize financial returns, and secure a dominant presence in the marketplace. By harnessing our deep industry acumen, strategic alliances with leading brands, and unwavering dedication, we consistently deliver outcomes that surpass the expectations of our property owners, redefining excellence in hotel operations.
+                                    a.read-more-btn.text-primary(href='#') Read More
+
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            img.img-fluid(src='assets/img/portfolio/sales.jpg' alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Sales & Marketing
+                                .portfolio-caption-subheading.text-muted
+                                    //- .description-short Oak SPring Hospitality Services stands
+                                    .description-full(style='display:none') Our sales and marketing team aren't just professionals—they're hospitality visionaries. With a deep understanding of our guests' desires, they craft tailored experiences that delight and inspire loyalty. Their keen market insights and bold, creative strategies ensure we connect the perfect guest with the ideal hotel, elevating every stay with precision and care.
+                                    a.read-more-btn.text-primary(href='#') Read More
+
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            img.img-fluid(src='assets/img/portfolio/investment.jpg' alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Investment & Development
+                                .portfolio-caption-subheading.text-muted
+                                    //- .description-short Oak SPring Hospitality Services stands
+                                    .description-full(style='display:none') Leveraging our extensive expertise in hotel brands and market dynamics, we guide partners in selecting optimal brands and validating sites to maximize their investment returns. From groundbreaking to grand opening, Oak Spring Hospitality Services manages every detail of launching your property with a dynamic ramp-up approach. By fostering trust and delivering value from the start, we build enduring partnerships that empower our owners to thrive and expand.
                                     a.read-more-btn.text-primary(href='#') Read More
                     //- .col-lg-4.col-sm-6.mb-4
                     //-     .portfolio-item
@@ -209,12 +229,12 @@ html(lang='en')
                     //- .col-lg-4.text-lg-start
                     //-     | Copyright &copy; OAK SPRING MANAGEMENT
                     .col-lg-12.my-12.my-lg-0
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
-                            i.fab.fa-twitter
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
-                            i.fab.fa-facebook-f
-                        a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='LinkedIn')
-                            i.fab.fa-linkedin-in
+                        //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
+                        //-     i.fab.fa-twitter
+                        //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
+                        //-     i.fab.fa-facebook-f
+                        //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='LinkedIn')
+                        //-     i.fab.fa-linkedin-in
                     //- .col-lg-4.text-lg-end
                     //-     a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
                     //-     a.link-dark.text-decoration-none(href='#!') Terms of Use
