@@ -3,9 +3,10 @@
 //
 
 #mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: $gray-900;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border: none;
+    background-color: #F9F7F8;
 
     .navbar-toggler {
 
@@ -14,6 +15,7 @@
         font-family: $headings-font-family;
         text-transform: uppercase;
         font-weight: $font-weight-bold;
+        color: #848283;
     }
 
     .navbar-brand {
@@ -39,6 +41,18 @@
                 // &:hover {
                 //     color: $primary;
                 // }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xs) {
+    #mainNav {
+        background-color: #F9F7F8;
+        .navbar-brand {
+            img {
+                height: 2.7rem;
+                transition: height 0.3s ease-in-out;
             }
         }
     }
