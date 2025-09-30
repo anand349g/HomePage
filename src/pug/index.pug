@@ -149,7 +149,7 @@ html(lang='en')
                 // https://startbootstrap.com/solution/contact-forms
                 // to get an API token!
 
-                form#contactForm(data-sb-form-api-token='API_TOKEN')
+                form#contactForm(data-sb-form-api-token='36b46273-a642-40a5-b693-baf4b70108e0')
                     .row.align-items-stretch.mb-5
                         .col-md-6
                             .form-group
@@ -226,9 +226,20 @@ html(lang='en')
         footer.footer.py-4
             .container
                 .row.align-items-center
-                    //- .col-lg-4.text-lg-start
-                    //-     | Copyright &copy; OAK SPRING MANAGEMENT
-                    .col-lg-12.my-12.my-lg-0
+                    .col-lg-4.text-lg-start
+                        | Copyright &copy; OAK SPRING MANAGEMENT
+                    .col-lg-2
+                    .col-lg-6
+                            .row
+                                .col-lg-6.text-lg-start
+                                    //- b Location
+                                .col-lg-6.text-lg-start
+                                    b Contact
+                                    .row
+                                        .col-xs-12
+                                            a(href="mailto:contact@oakspringmanagement.com" target="_blank" style="color:#000") contact@oakspringmanagement.com
+
+                    //- .col-lg-12.my-12.my-lg-0
                         //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Twitter')
                         //-     i.fab.fa-twitter
                         //- a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Facebook')
